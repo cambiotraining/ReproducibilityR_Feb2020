@@ -388,21 +388,66 @@ div.tocify {
 <img src="img/distributed-vcs.png" alt="Image from https://homes.cs.washington.edu/~mernst/advice/version-control.html" /></p>
 <p> </p>
 </div>
-<div id="what-is-github" class="section level2">
-<h2>What is Github?</h2>
+</div>
+<div id="what-is-github" class="section level1">
+<h1>What is Github?</h1>
 <p>It is important to distinguish between git and GitHub. git is the version control system - the tool needed to keep track of your files/repositories history. On the other hand, GitHub is a hosting platform where you can keep your files/repositories in.</p>
-<p>The best way to understand this clearly is by seeing this in action and working through an example together. There are several ways you can keep versions of your files through git and GitHub and we will be looking at two popular ways in this course.</p>
+<p>The best way to understand this clearly is by seeing this in action and working through an example together. There are several ways you can keep versions of your files through git and GitHub and we will be looking at two popular ways in this course; using the GitHub website and using Rstudio.</p>
 <p> </p>
-<div id="the-online-way" class="section level3">
-<h3>The online way</h3>
+</div>
+<div id="version-control-through-the-github-website" class="section level1">
+<h1>Version Control through the GitHub website</h1>
 <p>In this section we will use GitHub and manage our project online without using any coding.</p>
 <p>The first step is to create a repository. The slides below provide step by step instructions on how to do this.</p>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_yYfwzRkVFB4h5v3LP0aW2jyPpIpGshVLR_gTvFX5i7q1OePoWidMHWRdWc9VnA/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 <p>After this example we have now a repository in place where anyone can see the files.</p>
 <p> </p>
-<div id="the-github-flow" class="section level4">
-<h4><strong>The GitHub flow</strong></h4>
+</div>
+<div id="project-management-in-github" class="section level1">
+<h1>Project management in GitHub</h1>
+<p>GitHub integrates project management features to help its users manage their repositories. This is especially helpful if these involve the collaboration of more than one person. As the name suggests, project management allows the initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals at the specified time [<a href="https://en.wikipedia.org/wiki/Project_management">Wikipedia</a>]. More information on Project Management on GitHub can be found at:</p>
+<ul>
+<li><a href="https://github.com/features/project-management">https://github.com/features/project-management</a></li>
+<li><a href="https://help.github.com/en/github/managing-your-work-on-github">https://help.github.com/en/github/managing-your-work-on-github</a></li>
+</ul>
+<p><br />
+</p>
+<div id="adding-collaborators" class="section level2">
+<h2>Adding Collaborators</h2>
+<p>If you are working on a project in a team or with collaborators than it would be more useful to either add collaborators to your repository or else create an organisation and add members to your organisation. Creating an organisation in GitHub is useful if you want to manage access to the different team individuals and when you have more than one repository. More information about how to setup an Organisation on GitHub can be found <a href="https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams">here</a>. In this course we will be looking at how to add collaborators to your repository.</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_Hmo4XUWHTIgVAY7clbFIPRvO-FVLfJMxBT4D5JjgiT34RhteOBP_qn9Vp8oXRPQtObnqbqmKG-ek/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+<p><br />
+</p>
+</div>
+<div id="issues" class="section level2">
+<h2>Issues</h2>
+<p>In GitHub, Issues are created to suggest an idea, improvements or keep track of bugs, in other words, it can be viewed as a task list for the project. The steps involved to create an Issue on GitHub are:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSYRsu_8I8IyowqyGglHUpfZWQ5fcOPiNw3rdW2iLL_xPF3iEROX2rKjsR7zk53mg/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+<p><br />
+</p>
+</div>
+<div id="project-board" class="section level2">
+<h2>Project Board</h2>
+<p>GitHub provides project boards to help manage the issues and other tasks related to the project. GitHub allows the user to specify a project template for the project board (details of the different templates can be found <a href="https://help.github.com/en/github/managing-your-work-on-github/about-project-boards#templates-for-project-boards">here</a>). One of the most popular style of project management methodolody is <strong>Kanban</strong>. Kanban is an agile methodology where the testing and build phase are integrated in the same iteration as programming rather than having them as separate phases as done in traditional methodologies. In its simple form, the Kanban methodology is a kanban board composed of 3 columns:</p>
+<ol style="list-style-type: decimal">
+<li>To do</li>
+<li>In progress</li>
+<li>Done</li>
+</ol>
+<p>The tasks in a project are represented by cards, with each card representing one task. The tasks start from the first column (To do) and they are pulled along the right (subsequent columns) as the task progresses through the workflow (known as a pull system). The Kanban method focuses on having a work in progress list as small as possible so that the workforce is focused on finishing tasks with high priority. It is also emphasises on representing the tasks visually on the kanban board, allowing team members to see the status of the project at any time. If you are interested to understand the Kanban methodology better there are a good set of short videos about this <a href="https://www.atlassian.com/agile/kanban">here</a>.</p>
+<p>Let us try to create a project board on GitHub together:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS02IyjD_9w1NCk7RNmGsLKnAtlTrDNg-5q9cGrv3fuazMY7i3ZuU-A2GMn_qhXttQwea0YyrBUIEsV/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="820" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+<p>More information about project boards on GitHub can be found at <a href="https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards">https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards</a>.</p>
+<p><br />
+</p>
+</div>
+<div id="the-github-flow" class="section level2">
+<h2>The GitHub flow</h2>
+<!-- this needs updating with the status of the project board -->
 <!-- https://nvie.com/posts/a-successful-git-branching-model/ -->
 <p>Making changes to a repository that only yourself is contributing to is one thing. However, when working in teams especially one which involves a large number of people where everyone is making changes to the same repository you want to have a stable <strong>branch</strong> in place.</p>
 <p>A <strong>branch</strong> means a copy of your repository where you can make changes to without getting worried that you will do something wrong that will effect the remaining of the team. Therefore you are free to experiment on your own branch. There are several different workflows, <em>e.g.,</em> git-flow, GitHub flow and GitLab flow.</p>
@@ -423,14 +468,22 @@ div.tocify {
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTRZ-ICzs-gg71XCC_E9txI-HA4GpL9N7w92QMEoYIEISZN7kwOT87bWOc10Yqcdw/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 <p> </p>
-</div>
-</div>
 <div id="git-with-rstudio" class="section level3">
 <h3>Git with RStudio</h3>
 <p>So far we have learned how to do the main GitHub operations directly on GitHub. We will now will look how we can perform the same operations in RStudio. Why do you want to do this in RStudio? If you are writing your code in R, it will make more sense to use the inbuilt RStudio integration of git, in this way you do not need to switch back and forth to GitHub.</p>
-<div id="practical" class="section level4">
-<h4>Practical</h4>
-<p>Follow this tutorial to commit changes through RStudio: <a href="http://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/" class="uri">http://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/</a></p>
+<div id="practical-in-the-classroom" class="section level4">
+<h4>Practical in the classroom</h4>
+<!--
+Follow this tutorial to commit changes through RStudio:
+http://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/
+
+
+https://sarahlrstevens.info/git-novice-mod/14-supplemental-rstudio/
+https://www.nceas.ucsb.edu/~brun/RStudio_intro/2-getting-started-with-git-in-RStudio.html
+https://audhalbritter.com/wp-content/uploads/2016/12/Github-%E2%80%93-R-studio-Cheat-Sheet.pdf
+https://www.youtube.com/watch?v=E2d91v1Twcc
+
+-->
 </div>
 </div>
 </div>
