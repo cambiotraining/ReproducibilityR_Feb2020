@@ -58,7 +58,7 @@ In this section we will use GitHub and manage our project online without using a
 
 The first step is to create a repository.  The slides below provide step by step instructions on how to do this.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS_yYfwzRkVFB4h5v3LP0aW2jyPpIpGshVLR_gTvFX5i7q1OePoWidMHWRdWc9VnA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ0VHWripOuP0wNye8q-HpIHfLGAQSi_QTlrcEAIET8kSx8g3XDY83201-OVg4muCdZIr4-CcQ21iFr/embed?start=false&loop=false&delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 After this example we have now a repository in place where anyone can see the files. 
 
@@ -86,7 +86,7 @@ If you are working on a project in a team or with collaborators than it would be
 
 In GitHub, Issues are created to suggest an idea, improvements or keep track of bugs, in other words, it can be viewed as a task list for the project.  The steps involved to create an Issue on GitHub are:
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSYRsu_8I8IyowqyGglHUpfZWQ5fcOPiNw3rdW2iLL_xPF3iEROX2rKjsR7zk53mg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRAAAzpAWQTFhcSxq4Vtz0Z_XrXam5ZykWXA56BaucHwCjrJeESPyv37yjhD1SGDR1gcw9ac7rA2SUi/embed?start=false&loop=false&delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 \
 
@@ -139,7 +139,7 @@ The GitHub flow steps consist of the following:
 
 Let us do this whole process in action on GitHub!
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTRZ-ICzs-gg71XCC_E9txI-HA4GpL9N7w92QMEoYIEISZN7kwOT87bWOc10Yqcdw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPhU3xOFvFnb-gNhrW2dotoz7BIcrKaBe6fpTMjvBbp3egSXtZUw9J6UcfwuZV21m_JO4Xd5BtQ0Ne/embed?start=true&loop=true&delayms=3000" frameborder="0" width="820" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 \  
 
